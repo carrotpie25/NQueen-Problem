@@ -14,7 +14,7 @@ This code enables user to input the number of queens, and will construct an NxN 
 
 However, for certain values of ‘n’, there might not be a solution to the N Queens problem. When N= 1,2 or 3, there will be no solutions because there is no possible way to put two queens in a way they do not threaten each other. These are the smallest values of N for where no solution exists. To address this, the code above includes a check in the ‘main’ function to ensure that the input value of ‘n’ is valid according to the following the criteria: 
 
-•	When n<=0, there are no solution and the code will print out an invalid input message
-•	When n= 1,2,3, the code will return false and print out that there are no solutions to the n queen problem
-•	When n=>4, the code will print out all possible solutions to the n queen problem
-•	In addition, when n is not an integer or a whole number, the code will print out an invalid input message and ask user to input a whole number
+*	When n<=0, there are no solution and the code will print out an invalid input message
+*	When n= 1,2,3, the code will return false and print out that there are no solutions to the n queen problem
+*	When n=>4, the code will print out all possible solutions to the n queen problem
+*	In addition, when n is not an integer or a whole number, the code will print out an invalid input message and ask user to input a whole number
